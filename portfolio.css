@@ -134,6 +134,14 @@
   }
   
   .btn-secondary {
-    background: transparent;
-  }
+    background-color: var(--bgDark);
+    color: var(--white);
+    border: 2px solid var(--primary);
+    transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: var(--primary);
+    color: var(--secondary);
+}
   
