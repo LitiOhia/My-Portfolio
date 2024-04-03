@@ -133,8 +133,8 @@
     flex: 1;
   }
   
-  .btn-secondary {
-    background-color: var(--bgDark);
+ .btn-secondary {
+    background-color: lightgreen; 
     color: var(--white);
     border: 2px solid var(--primary);
     transition: all 0.3s ease;
@@ -144,4 +144,3 @@
     background-color: var(--primary);
     color: var(--secondary);
 }
-  
