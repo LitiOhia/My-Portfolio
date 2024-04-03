@@ -136,7 +136,7 @@
  .btn-secondary {
     background-color: var(--bgDark);
     border: 2px solid var(--primary);
-     color: var(--primary);
+     color: none;
     transition: all 0.3s ease;
 }
 
